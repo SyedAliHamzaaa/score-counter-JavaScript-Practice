@@ -1,0 +1,48 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    background-color: blue;
+    width: 600px;
+    justify-content: center;
+}
+
+.score-card{
+    text-align: center  ;
+}
+h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+button{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h2{
+    background-color: black;
+    height: 60px;
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 42px;
+}
+#reset{
+    padding: 10px;
+    background-color: red;
+    display: block;
+    height: 40px;
+    width: 90px;
+    border: none;
+}

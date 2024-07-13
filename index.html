@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Score Counter</title>
 </head>
 <body>
     
 
+<div class="main">
+    <div class="score-card">
+        <h1>Home</h1>
+        <div class="score-screen">
+                <h2 id="homescore">00</h2>
+            <button id="score-add-one" onclick="addOneHome()">+1</button>
+            <button id="score-add-two" onclick="addTwoHome()">+2</button>
+            <button id="score-add-three" onclick="addThreeHome()">+3</button>
+                
+        </div>
 
+    </div>
+    <div class="score-card">
+        <h1>Guest</h1>
+        <div class="score-screen">
+                <h2 id="guestscore">00</h2>
+            <button id="score-add-one" onclick="addOneGuest()">+1</button>
+            <button id="score-add-two" onclick="addTwoGuest()">+2</button>
+            <button id="score-add-three"onclick="addThreeGuest()">+3</button>
+                
+        </div>
+
+        
+    </div>
+    
+    <button id="reset" onclick="resetfunc()">Reset </button>
+
+   
+</div>
 
 
 
